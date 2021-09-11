@@ -1,0 +1,12 @@
+public class tictactoe {
+    public  static void main(String args[]) {
+            char gameBoard[];
+            gameBoard = new char[10];
+            gameBoard =' ';
+            System.out.println("array");
+            for(int i=1;i<gameBoard.length;i++)
+            {
+                System.out.println("ELEMENTS: "+i+" "+gameBoard[i]);
+            }
+        }
+    }
